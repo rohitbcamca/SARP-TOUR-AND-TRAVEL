@@ -1,0 +1,408 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SARP Tour and Travels - Welcome</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="DEMO1.css">
+</head>
+<body>
+    <nav>
+        <a href="#" class="logo">SARP <span>Tour and Travels</span></a>
+        <ul class="nav-links">
+            <li><a href="home.php">Home</a></li>
+            <li class="dropdown">
+                <a href="#" id="destinations-link">Destinations</a>
+                <div class="dropdown-content">
+                    <button class="close-menu">×</button>
+                    <div class="dropdown-content-wrapper">
+                        <div class="direction-section">
+                            <h3>North India</h3>
+                            <ul class="state-list">
+                                <li><a href="jammu.html">Jammu & Kashmir</a></li>
+                                <li><a href="Himachal.html">Himachal Pradesh</a></li>
+                                <li><a href="Punjab1.html">Punjab</a></li>
+                                <li><a href="Uttarakhand.html">Uttarakhand</a></li>
+                                <li><a href="">Haryana</a></li>
+                                <li><a href="Delhi.html">Delhi</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="direction-section">
+                            <h3>South India</h3>
+                            <ul class="state-list">
+                                <li><a href="Kerla.html">Kerala</a></li>
+                                <li><a href="TamilNadu.html">Tamil Nadu</a></li>
+                                <li><a href="karnatka.html">Karnataka</a></li>
+                                <li><a href="Andhra.html">Andhra Pradesh</a></li>
+                                <li><a href="">Telangana</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="direction-section">
+                            <h3>East India</h3>
+                            <ul class="state-list">
+                                <li><a href="#">West Bengal</a></li>
+                                <li><a href="#">Odisha</a></li>
+                                <li><a href="#">Bihar</a></li>
+                                <li><a href="#">Jharkhand</a></li>
+                                <li><a href="#">Sikkim</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="direction-section">
+                            <h3>West India</h3>
+                            <ul class="state-list">
+                                <li><a href="#">Gujarat</a></li>
+                                <li><a href="#">Maharashtra</a></li>
+                                <li><a href="#">Goa</a></li>
+                                <li><a href="#">Rajasthan</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="direction-section">
+                            <h3>Northeast India</h3>
+                            <ul class="state-list">
+                                <li><a href="#">Assam</a></li>
+                                <li><a href="#">Arunachal Pradesh</a></li>
+                                <li><a href="#">Manipur</a></li>
+                                <li><a href="#">Meghalaya</a></li>
+                                <li><a href="#">Mizoram</a></li>
+                                <li><a href="#">Nagaland</a></li>
+                                <li><a href="#">Tripura</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="direction-section">
+                            <h3>Central India</h3>
+                            <ul class="state-list">
+                                <li><a href="#">Madhya Pradesh</a></li>
+                                <li><a href="#">Chhattisgarh</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <li><a href="book.html">Plan Your Trip</a></li>
+            <li><a href="enquiry.html">Enquiry</a></li>
+            <li><a href="profile.php" class="profile-link"><i class="fas fa-user-circle"></i> <?php echo $user_name; ?></a></li>
+            <li><a href="Logout.php">Logout</a></li>
+        </ul>
+    </nav>
+
+    <div class="welcome-banner">
+        <h1>Welcome </h1>
+        <p>Your trusted partner in creating unforgettable travel experiences</p>
+    </div>
+
+    <div class="slider-container">
+        <div class="slide active">
+            <img src="IMAGE/Tr1.jpg" alt="Travel Concept">
+        </div>
+        <div class="slide">
+            <img src="IMAGE/Tr2.avif" alt="Travel Image 1">
+        </div>
+        <div class="slide">
+            <img src="IMAGE/Tr3.avif" alt="Travel Image 2">
+        </div>
+        <div class="slide">
+            <img src="IMAGE/Tr7.jpg" alt="Travel Image 3">
+        </div>
+        <div class="slide">
+            <img src="IMAGE/Tr5.jpg" alt="Travel Image 4">
+        </div>
+        
+        <button class="slider-arrow prev-btn">❮</button>
+        <button class="slider-arrow next-btn">❯</button>
+        
+        <div class="slider-buttons">
+            <button class="slider-btn active"></button>
+            <button class="slider-btn"></button>
+            <button class="slider-btn"></button>
+            <button class="slider-btn"></button>
+            <button class="slider-btn"></button>
+        </div>
+    </div>
+    
+    <section class="about-parent">
+        <div class="about-container">
+            <div class="about-content">
+                <h2>About Us</h2>
+                <p>Welcome to <strong>SARP Tour and Travels</strong>, your trusted partner in creating unforgettable travel experiences since 2010. We are more than just a travel agency; we are your gateway to exploring the world's most beautiful destinations with comfort and confidence.</p>
+                
+                <p>Our journey began with a simple mission: to make travel accessible, enjoyable, and hassle-free for everyone. Over the years, we've grown into a full-service travel company that handles everything from flight bookings to luxury accommodations, ensuring your travel dreams become reality.</p>
+
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">13+</div>
+                        <div class="stat-label">Years of Excellence</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">50K+</div>
+                        <div class="stat-label">Happy Travelers</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">100+</div>
+                        <div class="stat-label">Destinations</div>
+                    </div>
+                </div>
+                
+                <div class="about-features">
+                    <div class="feature-item">
+                        <div class="feature-icon">✈</div>
+                        <div class="feature-text">
+                            <h4>Expert Travel Planning</h4>
+                            <p>Our experienced travel consultants provide personalized guidance to create your perfect itinerary</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">🏨</div>
+                        <div class="feature-text">
+                            <h4>Premium Accommodations</h4>
+                            <p>Access to exclusive hotel deals and luxury accommodations worldwide</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">🚗</div>
+                        <div class="feature-text">
+                            <h4>Reliable Transportation</h4>
+                            <p>Safe and comfortable travel options with professional drivers and modern vehicles</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">🎯</div>
+                        <div class="feature-text">
+                            <h4>Customized Experiences</h4>
+                            <p>Tailored travel plans designed to match your preferences and budget</p>
+                        </div>
+                    </div>
+                </div>
+
+                <p style="margin-top: 30px;">At SARP Tour and Travels, we believe that every journey should be extraordinary. Our commitment to excellence, attention to detail, and passion for travel ensures that you receive the highest quality service at every step of your journey. Whether you're planning a romantic getaway, family vacation, or business trip, we're here to make your travel dreams come true.</p>
+            </div>
+            <div class="about-image">
+                <img src="IMAGE/freepic2.avif" alt="Travel Experience">
+            </div>
+        </div>
+    </section>
+
+    <section class="services-parent">
+        <div class="services-container">
+            <div class="services-header">
+                <h2>Our Services</h2>
+                <p>Discover our comprehensive range of travel services designed to make your journey unforgettable and hassle-free.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">✈</div>
+                    <h3>Flight Booking</h3>
+                    <p>Get the best deals on domestic and international flights with our extensive network of airline partners.</p>
+                    <a href="#">Learn More →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏨</div>
+                    <h3>Hotel Reservations</h3>
+                    <p>Access exclusive hotel deals and luxury accommodations worldwide with our premium partnerships.</p>
+                    <a href="#">Learn More →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🚗</div>
+                    <h3>Transportation</h3>
+                    <p>Reliable and comfortable transportation services with professional drivers and modern vehicles.</p>
+                    <a href="#">Learn More →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎯</div>
+                    <h3>Tour Packages</h3>
+                    <p>Curated tour packages for various destinations with activities and experiences included.</p>
+                    <a href="#">Learn More →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🛡</div>
+                    <h3>Travel Insurance</h3>
+                    <p>Comprehensive travel insurance coverage to ensure your peace of mind during your journey.</p>
+                    <a href="#">Learn More →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎫</div>
+                    <h3>Visa Services</h3>
+                    <p>Expert assistance with visa applications and documentation for international travel.</p>
+                    <a href="#">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-parent">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Contact Us</h2>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-text">
+                            <h4>Our Location</h4>
+                            <p>123 Travel Street, Tourism City, TC 12345</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-text">
+                            <h4>Phone Number</h4>
+                            <p>+91 9876543210</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">✉</div>
+                        <div class="contact-text">
+                            <h4>Email Address</h4>
+                            <p>info@sarptourandtravels.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">⏰</div>
+                        <div class="contact-text">
+                            <h4>Working Hours</h4>
+                            <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h2>Send us a Message</h2>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5960965552337!2d77.59129931500001!3d12.939176789999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15986765d7d9%3A0x3565475c3365c3b1!2sBangalore%20Palace!5e0!3m2!1sen!2sin!4v1647681234567!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About SARP Tour and Travels</h3>
+                <p>Your trusted partner in creating unforgettable travel experiences since 2010. We specialize in providing exceptional travel services and making your journey memorable.</p>
+                <div class="social-links">
+                    <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Destinations</a></li>
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Our Services</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Flight Booking</a></li>
+                    <li><a href="#">Hotel Reservations</a></li>
+                    <li><a href="#">Tour Packages</a></li>
+                    <li><a href="#">Transportation</a></li>
+                    <li><a href="#">Travel Insurance</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <p>Subscribe to our newsletter for travel updates and exclusive offers.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="submit-btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 SARP Tour and Travels. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const slides = document.querySelectorAll('.slide');
+        const dots = document.querySelectorAll('.slider-btn');
+        const prevBtn = document.querySelector('.prev-btn');
+        const nextBtn = document.querySelector('.next-btn');
+        let currentSlide = 0;
+
+        function showSlide(n) {
+            slides.forEach(slide => slide.classList.remove('active'));
+            dots.forEach(dot => dot.classList.remove('active'));
+            
+            currentSlide = (n + slides.length) % slides.length;
+            
+            slides[currentSlide].classList.add('active');
+            dots[currentSlide].classList.add('active');
+        }
+
+        function nextSlide() {
+            showSlide(currentSlide + 1);
+        }
+
+        function prevSlide() {
+            showSlide(currentSlide - 1);
+        }
+
+        // Event listeners
+        nextBtn.addEventListener('click', nextSlide);
+        prevBtn.addEventListener('click', prevSlide);
+
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => showSlide(index));
+        });
+
+        // Auto slide every 5 seconds
+        setInterval(nextSlide, 5000);
+
+        // New dropdown menu code
+        const destinationsLink = document.getElementById('destinations-link');
+        const dropdownContent = document.querySelector('.dropdown-content');
+        const closeMenu = document.querySelector('.close-menu');
+
+        destinationsLink.addEventListener('click', (e) => {
+            e.preventDefault();
+            dropdownContent.classList.add('show');
+        });
+
+        closeMenu.addEventListener('click', () => {
+            dropdownContent.classList.remove('show');
+        });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!dropdownContent.contains(e.target) && !destinationsLink.contains(e.target)) {
+                dropdownContent.classList.remove('show');
+            }
+        });
+    </script>
+</body>
+</html>
